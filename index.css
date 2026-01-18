@@ -12,6 +12,17 @@ body {
     text-align: center;
 }
 
+
+h1{
+text-align: center;
+margin: 20px;
+}
+
+p{
+text-align: center;
+}
+
+
 .container h2 {
     color: white;
     margin-bottom: 20px;
@@ -20,11 +31,11 @@ body {
 .container input,
 .container textarea {
     width: 100%;
-    padding: 10px;
-    margin: 8px 0;
+    padding: 2%;
+    margin: 10px 0;
     border-radius: 6px;
     border: none;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .container textarea {
@@ -33,13 +44,38 @@ body {
 }
 
 .container input[type="submit"] {
-    background-color: green;
+    background-color: rgb(153, 161, 153);
     color: white;
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
 }
 
+ul{
+justify-content: center;
+display: flex;
+gap: 2%;
+}
+
 .container input[type="submit"]:hover {
-    background-color: green;
+    background-color: rgb(67, 67, 67);
+}
+
+nav {
+    background-color: rgb(165, 157, 157);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+footer{
+text-align: center;
+}
+
+.img{
+display: block;
+margin: 20px auto;
 }

@@ -1,6 +1,7 @@
 body {
     background-color: rgb(31, 31, 31);
     color: rgb(220, 220, 220);
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -15,7 +16,9 @@ body {
 
 h1{
 text-align: center;
-margin: 20px;
+gap: 2%;
+background-color: rgb(0, 0, 0);
+border-radius: 10px;
 }
 
 p{
@@ -26,6 +29,10 @@ text-align: center;
 .container h2 {
     color: white;
     margin-bottom: 20px;
+}
+.container{
+box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+
 }
 
 .container input,
@@ -59,16 +66,28 @@ gap: 2%;
 
 .container input[type="submit"]:hover {
     background-color: rgb(67, 67, 67);
+;
 }
 
-nav {
-    background-color: rgb(165, 157, 157);
-    padding: 10px;
-    border-radius: 5px;
+.header {
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(61, 59, 58);
+    background-color: rgb(37, 37, 37);
+}
+
 
 
 footer{
@@ -77,5 +96,6 @@ text-align: center;
 
 .img{
 display: block;
-margin: 20px auto;
+margin: 20px auto;border-radius: 5px;
 }
+
